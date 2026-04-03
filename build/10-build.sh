@@ -46,7 +46,7 @@ echo "::group:: Install Packages"
 #wget https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | grep -oP '\d+' | head -1)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.3-1.noarch.rpm
 #dnf install ./protonvpn-stable-release-1.0.3-1.noarch.rpm
 #dnf install proton-vpn-gnome-desktop
-dnf5 install -y protonvpn-cli
+dnf install -y protonvpn-cli
 
 
 # Install packages using dnf5
