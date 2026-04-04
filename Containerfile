@@ -52,7 +52,7 @@ COPY --from=ghcr.io/ublue-os/brew:latest@sha256:ca91068f51ce663d495ccfc829352d66
 # FROM quay.io/centos-bootc/centos-bootc:stream10
 
 ## Alternative GNOME OS base image (uncomment to use):
-FROM quay.io/gnome_infrastructure/gnome-build-meta:gnomeos-nightly
+FROM quay.io/gnome_infrastructure/gnome-build-meta:gnomeos-nightly@sha256:251833e5c080839966344ed2dcb7406ea79f0a94c2ab7d82fc8b0dede5c500ef
 
 ### /opt
 ## Some bootable images, like Fedora, have /opt symlinked to /var/opt, in order to
